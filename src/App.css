@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(61, 61, 113);
+  text-align: center;
+}
+  .container {
+    background-color:#fff;
+    border-radius: 15px;
+    box-shadow: 0 0 40px ;
+    padding: 10px 20px;
+    width: 500px;
+    text-align: center
+  
+  };
+
+
+  h1 {
+    color: blueviolet;
+    text-align: 'center',
+  };
+   
+  form {
+    background-color: cornflowerblue;
+    padding: 30px ;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+  };
+
+  label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 15px,
+    color #34495e;
+    font-weight: bold;
+    margin-top: 8px;
+    text-align: left;
+  };
+
+  input {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    font-size: 16px;
+  };
+  select {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  };
+
+  button {
+    width: 40%;
+    padding: 11px 15px;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 15px;
+  };
+
+  error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  };
+  submit {
+    color: green;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 15px;
+  };
